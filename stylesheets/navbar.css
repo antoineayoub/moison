@@ -1,0 +1,47 @@
+/* How to override the default Bootstrap navbar */
+
+.navbar-transparent,
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+  background-color: transparent;
+  border:none;
+}
+
+.navbar-transparent .navbar-brand,
+.navbar-transparent .navbar-nav > li > a {
+  color: white;
+  line-height: 20px;
+  font-family: 'Montserrat', 'sans-serif';
+  font-weight: 400;
+  /*text-shadow: 1px 1px 1px #333;*/
+  font-size: 16px;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:active,
+.navbar-transparent .navbar-nav > li > a:focus,
+.navbar-transparent .navbar-nav > .open > a,
+.navbar-transparent .navbar-nav > .open > a:hover,
+.navbar-transparent .navbar-nav > .open > a:focus {
+  color: #16a085;
+  /*background-color: rgba(255, 255, 255, 0.3);*/
+}
+
+.navbar-transparent .navbar-brand:hover,
+.navbar-transparent .navbar-brand:active,
+.navbar-transparent .navbar-brand:focus {
+
+  color:white;
+  text-shadow: 1px 1px 1px #333;
+}
+
+@media (max-width: 770px) {
+.navbar-transparent,
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+  background-color: rgba(0, 0, 0, 0.7);
+  border:none;
+}

@@ -1,0 +1,67 @@
+#banner{
+  background-image: url('../images/entre_chateau.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  padding: 230px 0;
+  text-align: center;
+}
+
+#banner-decoration{
+  color: rgb(255,255,255);
+  background-color: rgba(0,0,0,0.7);
+  margin: 0 auto;
+  width: 70%;
+}
+
+#banner-decoration h1{
+  font-size: 3em;
+  font-weight: 400;
+  text-shadow: 1px 1px 1px #333;
+  font-family: 'Lato' ;
+  padding-top: 20px;
+}
+
+#banner-decoration h2{
+  font-size: 1.8em;
+  padding-bottom: 20px;
+  text-shadow: 1px 1px 1px #333;
+  font-weight: 300;
+
+}
+
+/* Button Customisation */
+#btn-decoration {
+  padding-top: 70px;
+}
+#btn-decoration > .btn {
+  border: none;
+  color:rgb(255,255,255);
+}
+
+.i-size{
+  font-size: 80px;
+  color: white;
+}
+
+.angle-position{
+  position: relative;
+  top:30px;
+}
+
+@media (max-width: 770px) {
+.angle-position{
+  position: relative;
+  top:0px;
+}
+#banner-decoration{
+  width: 100%;
+}
+}
+@media (max-width: 817px) {
+  #btn-decoration {
+  padding-top: 20px;
+}
+
+}
+
