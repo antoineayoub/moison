@@ -17,6 +17,7 @@
 #banner-decoration h1{
   font-size: 3em;
   font-weight: 400;
+  letter-spacing: 1px;
   text-shadow: 1px 1px 1px #333;
   font-family: 'Lato' ;
   padding-top: 20px;
@@ -41,7 +42,7 @@
 
 .i-size{
   font-size: 80px;
-  color: white;
+  color: #5CB85C;
 }
 
 .angle-position{
