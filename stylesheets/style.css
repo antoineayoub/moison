@@ -1,0 +1,113 @@
+@import url('banner.css');
+@import url('navbar.css');
+@import url('footer.css');
+@import url('contact.css');
+@import url('../vendor/animation.css');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800|Lato:400,300,700|Roboto:400,300,500);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+p{
+  font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5{
+  font-family: 'Lato', sans-serif;
+}
+.text-center{
+  text-align:center;
+}
+
+.padding-img{
+  padding: 10px;
+}
+
+.left-container{
+  float: left;
+  padding: 25px 0;
+}
+
+.right-container{
+  float: right;
+  padding: 25px 0;
+  text-align: center;
+}
+
+.clear{
+  clear: both;
+}
+
+
+.vertical-spacer{
+  height: 8em;
+}
+/* GITE */
+#gite{
+  margin:0 auto;
+  width: 900px ;
+  padding: 50px 0;
+}
+#gite h1{
+  text-align: center;
+}
+
+#gite p{
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+}
+
+.width-description{
+  width: 55%;
+}
+.width-detail{
+  width: 40%;
+}
+
+.detail-custo h4{
+  margin: 0;
+}
+
+/* PARTNER */
+
+#partner{
+  padding-bottom: 30px;
+}
+
+#partner h2{
+  padding-bottom: 20px;
+  font-weight: 300;
+}
+
+#partner img{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  padding:10px 0;
+}
+
+/* TARIF*/
+
+#tarifs{
+  margin:0 auto;
+  width: 500px ;
+  text-align: center;
+}
+
+#tarifs h1{
+  text-align: center;
+}
+
+.custo-tarif{
+  background-color: #AFCD9A;
+  border: none;
+  border-radius: 30px;
+  margin-bottom: 10px
+}
+.width-tarif{
+  width: 46%;
+}
+
+/* MODAL */
+
+.modal-header{
+  border-bottom: none;
+}
