@@ -42,7 +42,7 @@ h1,h2,h3,h4,h5{
 /* GITE */
 #house{
   margin:0 auto;
-  width:80%;
+  /*width:80%;*/
   text-align: center;
   padding: 40px;
 }
@@ -92,10 +92,11 @@ h1,h2,h3,h4,h5{
   background-image: url('../images/chateau-vue-parc.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
   margin:0 auto;
   text-align: center;
   padding-top: 40px;
+  padding-bottom: 40px;
+
 }
 
 #price h1{
@@ -139,4 +140,17 @@ h1,h2,h3,h4,h5{
 
 .modal-header{
   border-bottom: none;
+}
+
+/* CAROUSEL */
+#owl-example .owl-item div{
+  padding:5px;
+}
+#owl-example .owl-item img{
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
 }

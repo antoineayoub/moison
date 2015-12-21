@@ -42,8 +42,19 @@ $(document).ready(function(){
         }
       }
     });
-  });
-  $('.carousel').carousel({
-    interval: 3000
+  })
+
+  $(function() {
+    $("#owl-example").owlCarousel({
+        navigation : true, // Show next and prev buttons
+        slideSpeed : 300,
+        paginationSpeed : 400,
+        singleItem:true,
+        autoPlay : 3000,
+        stopOnHover : true,
+        goToFirstSpeed : 3000,
+        autoHeight : true,
+
+    })
   });
 })
